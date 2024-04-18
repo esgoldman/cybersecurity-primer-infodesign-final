@@ -67,6 +67,29 @@
       <div class="content">
         <div id="the-data">
           <canvas id="attacks-by-year"> </canvas>
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <div class="heading">
+                  <h4>Attack Breakdown</h4>
+                </div>
+                <canvas id="attack-types"> </canvas>
+              </div>
+              <div class="col-6">
+                <h4 class="heading">Attacks Since 2006</h4>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="search"
+                  placeholder="Search by keyword..."
+                />
+                <div
+                  class="accordion accordion-flush attack-data"
+                  class="list-group"
+                ></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
