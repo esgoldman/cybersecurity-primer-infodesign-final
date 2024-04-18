@@ -36,7 +36,7 @@ h5,
   cursor: pointer;
 }
 .nav-button {
-  background-color: rgb(136, 136, 136);
+  background-color: #89CE94;
 }
 .accordion-button, .accordion-button:not(.collapsed){
   background-color: #00223a;

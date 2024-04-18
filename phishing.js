@@ -171,24 +171,24 @@ function identify_game() {
   identify_load_emails();
   const counter = $(".phish-identify-points");
   $(".phish-1").on("click", function () {
+    if ($(this).attr("phishing") === "true") {
+      setTimeout(function () {
+        increment_points(counter, phishes.length, phishes[level][0].clicked);
+      }, 500);
+    }
+    phishes[level][0].clicked = true;
     if (level < phishes.length) {
-      if ($(this).attr("phishing") === "true") {
-        setTimeout(function () {
-          increment_points(counter, phishes.length, phishes[level][0].clicked);
-        }, 500);
-      }
-      phishes[level][0].clicked = true;
       identify_next_level(level, phishes);
     }
   });
   $(".phish-2").on("click", function () {
+    if ($(this).attr("phishing") === "true") {
+      setTimeout(function () {
+        increment_points(counter, phishes.length, phishes[level][0].clicked);
+      }, 500);
+    }
+    phishes[level][0].clicked = true;
     if (level < phishes.length) {
-      if ($(this).attr("phishing") === "true") {
-        setTimeout(function () {
-          increment_points(counter, phishes.length, phishes[level][0].clicked);
-        }, 500);
-      }
-      phishes[level][0].clicked = true;
       identify_next_level();
     }
   });
