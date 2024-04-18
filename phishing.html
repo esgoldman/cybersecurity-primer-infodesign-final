@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Primer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cybersecurity Primer</a>
+          <button
+            class="navbar-toggler nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="the-data.html"
+                  >The Data</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="phishing.html">Phishing</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="passwords.html">Passwords</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content container">
+        <div class="row">
+          <div class="col-7">
+            <div class="information">
+              <h4>What is Phishing?</h4>
+              <p>
+                Phishing is a form of social engineering in which a target is
+                contacted by email, phone, or text by someone pretending to be a
+                legitimate organization or service.
+              </p>
+              <p>
+                While there are different forms of phishing attacks and
+                different methods of accomplishing them, the ultimate goal is to
+                trick a target into providing sensitive data.
+              </p>
+              <p>
+                This can include things such as login information, credit card
+                numbers, and social security numbers.
+              </p>
+              <p>
+                The goal of many phishing attacks is to benefit financially,
+                often by stealing money. However, this does not encompass every
+                phish.
+              </p>
+            </div>
+            <div class="how-to">
+              <h4>Identifying a Phishing Attempt</h4>
+              <h5>Email and Text Phishing</h5>
+              <p>There are several ways scammers try to trick people into falling for a phish. While the base idea is the same (trick the user into thinking they are interacting with a legitimate source), depending on the phish vector the methods can vary.</p>
+              <p><strong>Generic</strong> attacks tend to target large groups of people and will often try to trick a user into clicking a malicious link. Oftentimes, but not always, a phishing text or email may inform you of:</p>
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Account Problems</div>
+                    Scammers may claim that they've noticed suspicious account activity (such as login attempts) or other problems with your account or payment information.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Information Confirmation</div>
+                    A phishing attack may request that you confirm some information about yourself, such as for your credit card or address.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Refund or Reward Eligibility</div>
+                    You may be told that you are eligible for some form of refund or a reward such as a free coupon.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Urgency</div>
+                    A scammer may attempt to instill a sense of urgency in a target. An example of this may be saying that an offer is available for a limited time, or that they only have so long before something bad (such as an account deletion) occurs.
+                  </div>
+                </li>
+              </ul>
+              <p>Oftentimes, these phishing messages are also impersonal and generic. For example, an email's greeting may simply say "Dear Customer," instead of whatever name you provided a service with.</p>
+              <br>
+              <p><strong>Spear Phishing</strong> is like email and text phishing, but targeted. Thus, unlike a generic greeting that a normal phishing email would have, these would be personalized as scammers research their targets.
+              Otherwise, they use similar techniques. An example of a spear phish may be an email to an employee of a company from an attacker that claims to be their boss, asking for personal identification.
+              <br>Another form of this attack is known as <strong>whaling</strong>. The key difference is that a whaling attack will target an important person, such as a CEO.</p>
+              <h5>Website Phishing</h5>
+              <p><strong>False Sites</strong> are often combined with other phishing attacks, but they do also exist on the internet. Malicious actors will disguise the site to look like that of a normal company's, and then trick people into navigating to it (usually through an email). Common techniques include:</p>
+              <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Link Manipulation</div>
+                    Phishers may disguise a link as something else. This attack is able to be identified by simply hovering your mouse over the hyperlink.
+                    <br>They may also shorten their links to disguise that the site is malicious.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Redirects</div>
+                    After you fall for a phishing attack, a site may redirect you to a legitimate one to lower your suspicions.
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Typosquatting</div>
+                    A scammer can register a domain that is very close to a reputable and legitimate domain in hopes that their victims will not notice. For example, a phisher attempting to pretend to be Netflix support could use the domain netflkx.com.
+                  </div>
+                </li>
+              </ul>
+              <br>
+              <p><strong>Pop-Up Phishing</strong> utilizes pop-up ads to trick a user into installing malware. These ads often use scare tactics, such as trying to convince someone that their device is infected with malware and the only way to remove it is by installing the antivirus that the pop-up is advertising,</p>
+            </div>
+          </div>
+          <div class="col-5">
+            <h4 class="heading">Phishing Sites</h4>
+            <canvas id="sites"></canvas>
+            <h4 class="heading">Phishing Emails</h4>
+            <canvas id="emails"></canvas>
+            <h4 class="heading">Target Amount</h4>
+            <canvas id="targets"></canvas>
+            <br><br>
+            <div class="games">
+              <h3 class="heading">Activities</h3>
+              <h4 class="heading">
+                What gives away that this is a phish? 
+              </h4>
+              <div class="card phish-email">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill points"><span class="phish-email-points">0</span>/5</span>
+                <h5 class="card-title phish-title popup">Verify Your Amazon Details<span style="display: none" class="popup_text title_popup">Correct! The wording of the title is a little suspect. Oftentimes, it's best to trust your gut!</span></h5>
+                <h6 class="card-text header popup"><strong>Amazon</strong> support_amazon@gmail.com<span style="display: none" class="popup_text header-popup">Correct! Phishing emails will have suspicious email addresses. If you're ever suspicious, it never hurts to google!</span></h6>
+                <p class="card-text"><p class="generic popup">Dear User,<span style="display: none" class="popup_text generic-popup">Correct! This is a generic greeting. An actual email from Amazon would be tailored with whatever name you gave them.</span></p>
+                We're having some trouble processing your payment information. <span class="payment popup">Please update your payment details.<span style="display: none" class="popup_text payment-popup">Correct! A common phishing tactic is to ask you to update your payment information.</span></span> In the meantime, we'll keep your Prime account on hold.
+                <a href="#phish-email" class="btn phish-btn popup">Update Now<span style="display: none" class="popup_text button-popup">Correct! If you paid close attention, you would see that the bottom left corner of the screen tells you that this link does not take you to Amazon.</span></a>
+              </p>
+              </div>
+              <br>
+              <h4 class="heading">Identify the phish</h4>
+              game here
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="phishing.js"></script>
+  </body>
+</html>

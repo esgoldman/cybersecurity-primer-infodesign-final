@@ -1,0 +1,397 @@
+[
+    {
+        "date":"October 2023",
+        "websites":356538,
+        "emails":22750,
+        "target_amount":477
+    },
+    {
+        "date":"November 2023",
+        "websites": 350776,
+        "emails":24621,
+        "target_amount":442
+    },
+    {
+        "date":"December 2023",
+        "websites":370187,
+        "emails":20642,
+        "target_amount":420
+    },
+    {
+        "date":"July 2023",
+        "websites":327294,
+        "emails": 29110,
+        "target_amount":477
+    },
+    {
+        "date":"August 2023",
+        "websites":331962,
+        "emails":32162,
+        "target_amount":499
+    },
+    {
+        "date":"September 2023",
+        "websites":340700,
+        "emails":32740,
+        "target_amount":508
+    },
+    {
+        "date":"April 2023",
+        "websites":597789,
+        "emails":41083,
+        "target_amount":544
+    },
+    {
+        "date":"May 2023",
+        "websites":381572,
+        "emails":30717,
+        "target_amount":521
+    },
+    {
+        "date":"June 2023",
+        "websites":306847,
+        "emails":22610,
+        "target_amount":498
+    },
+    {
+        "date":"January 2023",
+        "websites":495690,
+        "emails":40863,
+        "target_amount":561
+    },
+    {
+        "date":"February 2023",
+        "websites":509395,
+        "emails":45259,
+        "target_amount":549
+    },
+    {
+        "date":"March 2023",
+        "websites":619060,
+        "emails":40742,
+        "target_amount":576
+    },
+    {
+        "date":"July 2022",
+        "websites":425112,
+        "emails":64696,
+        "target_amount":621
+    },
+    {
+        "date":"August 2022",
+        "websites":430141,
+        "emails":38228,
+        "target_amount":612
+    },
+    {
+        "date":"September 2022",
+        "websites":412630,
+        "emails":23994,
+        "target_amount":637
+    },
+    {
+        "date":"January 2022",
+        "websites":331698,
+        "emails":15275,
+        "target_amount":608
+    },
+    {
+        "date":"February 2022",
+        "websites":309979,
+        "emails":14176,
+        "target_amount":621
+    },
+    {
+        "date":"March 2022",
+        "websites":384291,
+        "emails":24187,
+        "target_amount":673
+    },
+    {
+        "date":"October 2021",
+        "websites":267530,
+        "emails":12350,
+        "target_amount":624
+    },
+    {
+        "date":"November 2021",
+        "websites":304308,
+        "emails":13937,
+        "target_amount":682
+    },
+    {
+        "date":"December 2021",
+        "websites":316747,
+        "emails":16461,
+        "target_amount":521
+    },
+    {
+        "date":"July 2021",
+        "websites":260642,
+        "emails":11384,
+        "target_amount":522
+    },
+    {
+        "date":"August 2021",
+        "websites":255385,
+        "emails":10716,
+        "target_amount":603
+    },
+    {
+        "date":"September 2021",
+        "websites":214345,
+        "emails":64233,
+        "target_amount":715
+    },
+    {
+        "date":"April 2021",
+        "websites":204050,
+        "emails":11400,
+        "target_amount":464
+    },
+    {
+        "date":"May 2021",
+        "websites":190762,
+        "emails":9239,
+        "target_amount":500
+    },
+    {
+        "date":"June 2021",
+        "websites":222127,
+        "emails":9669,
+        "target_amount":495
+    },
+    {
+        "date":"January 2021",
+        "websites":245771,
+        "emails":172793,
+        "target_amount":430
+    },
+    {
+        "date":"February 2021",
+        "websites":158898,
+        "emails":112369,
+        "target_amount":407
+    },
+    {
+        "date":"March 2021",
+        "websites":207208,
+        "emails":29918,
+        "target_amount":465
+    },
+    {
+        "date":"October 2020",
+        "websites":225304,
+        "emails":143950,
+        "target_amount":532
+    },
+    {
+        "date":"November 2020",
+        "websites":212878,
+        "emails":119700,
+        "target_amount":505
+    },
+    {
+        "date":"December 2020",
+        "websites":199120,
+        "emails":133038,
+        "target_amount":515
+    },
+    {
+        "date":"July 2020",
+        "websites":171040,
+        "emails":119181,
+        "target_amount":478
+    },
+    {
+        "date":"August 2020",
+        "websites":201591,
+        "emails":199180,
+        "target_amount":575
+    },
+    {
+        "date":"September 2020",
+        "websites":199133,
+        "emails":128926,
+        "target_amount":505
+    },
+    {
+        "date":"April 2020",
+        "websites":48951,
+        "emails":43282,
+        "target_amount":364
+    },
+    {
+        "date":"May 2020",
+        "websites":52007,
+        "emails":39908,
+        "target_amount":352
+    },
+    {
+        "date":"June 2020",
+        "websites":46036,
+        "emails":44497,
+        "target_amount":363
+    },
+    {
+        "date":"January 2020",
+        "websites":54926,
+        "emails":52407,
+        "target_amount":374
+    },
+    {
+        "date":"February 2020",
+        "websites":49560,
+        "emails":43270,
+        "target_amount":331
+    },
+    {
+        "date":"March 2020",
+        "websites":60286,
+        "emails":44008,
+        "target_amount":344
+    },
+    {
+        "date":"October 2019",
+        "websites":76804,
+        "emails":45057,
+        "target_amount":333
+    },
+    {
+        "date":"November 2019",
+        "websites":39580,
+        "emails":42424,
+        "target_amount":325
+    },
+    {
+        "date":"December 2019",
+        "websites":45771,
+        "emails":45072,
+        "target_amount":341
+    },
+    {
+        "date":"July 2019",
+        "websites":93194,
+        "emails":35530,
+        "target_amount":444
+    },
+    {
+        "date":"August 2019",
+        "websites":86908,
+        "emails":40457,
+        "target_amount":414
+    },
+    {
+        "date":"September 2019",
+        "websites":86276,
+        "emails":42273,
+        "target_amount":425
+    },
+    {
+        "date":"April 2019",
+        "websites":59756,
+        "emails":37054,
+        "target_amount":341
+    },
+    {
+        "date":"May 2019",
+        "websites":61820,
+        "emails":40177,
+        "target_amount":308
+    },
+    {
+        "date":"June 2019",
+        "websites":60889,
+        "emails":34932,
+        "target_amount":289
+    },
+    {
+        "date":"January 2019",
+        "websites":48663,
+        "emails":34630,
+        "target_amount":327
+    },
+    {
+        "date":"February 2019",
+        "websites":50983,
+        "emails":35364,
+        "target_amount":288
+    },
+    {
+        "date":"March 2019",
+        "websites":81112,
+        "emails":42399,
+        "target_amount":330
+    },
+    {
+        "date":"October 2018",
+        "websites":56815,
+        "emails":87619,
+        "target_amount":293
+    },
+    {
+        "date":"November 2018",
+        "websites":35719,
+        "emails":64905,
+        "target_amount":233
+    },
+    {
+        "date":"December 2018",
+        "websites":45794,
+        "emails":87386,
+        "target_amount":310
+    },
+    {
+        "date":"July 2018",
+        "websites":52613,
+        "emails":93078,
+        "target_amount":231
+    },
+    {
+        "date":"August 2018",
+        "websites":44855,
+        "emails":89323,
+        "target_amount":260
+    },
+    {
+        "date":"September 2018",
+        "websites":53546,
+        "emails":88156,
+        "target_amount":286
+    },
+    {
+        "date":"January 2018",
+        "websites":60887,
+        "emails":89250,
+        "target_amount":235
+    },
+    {
+        "date":"February 2018",
+        "websites":88754,
+        "emails":89010,
+        "target_amount":273
+    },
+    {
+        "date":"March 2018",
+        "websites":113897,
+        "emails":84444,
+        "target_amount":238
+    },
+    {
+        "date":"April 2018",
+        "websites":100382,
+        "emails":91054,
+        "target_amount":274
+    },
+    {
+        "date":"May 2018",
+        "websites":81257,
+        "emails":82547,
+        "target_amount":285
+    },
+    {
+        "date":"June 2018",
+        "websites":90882,
+        "target_amount":227
+    }
+]

@@ -1,0 +1,128 @@
+body {
+  background-color: #003459;
+  color: #8d99ae;
+  font-family: "Source Code Pro";
+  height: 100%;
+}
+.content{
+  margin-left: 2%;
+  margin-top: 1%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.nav-link,
+.navbar-brand,
+.nav-button {
+  font-family: "Times New Roman", Times, serif;
+}
+#intro-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#intro {
+  text-align: center;
+}
+#start {
+  display: none;
+  padding: 10px 20px;
+  background-color: #ffcb77;
+  color: #003459;
+  border: none;
+  cursor: pointer;
+}
+.nav-button {
+  background-color: rgb(136, 136, 136);
+}
+.accordion-button, .accordion-button:not(.collapsed){
+  background-color: #00223a;
+  color: #8d99ae;
+  background-image: initial;
+}
+.accordion-button::after, .accordion-button:not(.collapsed)::after{
+  background-image: initial;
+}
+.accordion-body{
+  background-color: #4c586b;
+  color: #ffcb77;
+}
+a {
+  color: #89CE94;
+}
+a:hover{
+  color: #75b27f;
+}
+.nav-link {
+  font-size: 1.7em;
+}
+.navbar-brand {
+  font-size: 2.5em;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-data{
+  height: 80vh;
+}
+.navbar{
+  background-color: #00223a;
+}
+.list-group{
+  list-style-type: circle;
+}
+.list-group-item{
+  background-color: #003459;
+  color: #8d99ae;
+}
+.card{
+  padding: 5%;
+  background-color: #8d99ae;
+  color: #003459;
+  cursor: pointer;
+}
+.phish-btn, .phish-btn:hover{
+  margin-left: 15%;
+  background-color: #FF9900; 
+  color: #fff;
+  width: 70%;
+}
+.points{
+  background-color: #89CE94;
+  color: #003459;
+}
+.popup{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popup .popup_text{
+  background-color: #89CE94;
+  color: #003459;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 5%;
+  margin-left: -80px;
+}
+.popup .popup_text::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #89CE94 transparent transparent transparent;
+}
