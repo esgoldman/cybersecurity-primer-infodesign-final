@@ -12,7 +12,7 @@ function load() {
   display_data();
 }
 
-var backgroundColor = ["#89CE94", "#FFCB77", "#FFA686", "#E76C6B", "#F4F1B2", "#B1E5CF"];
+var backgroundColor = ["#89CE94", "#FFCB77", "#FFA686", "#E76C6B", "#9CBEB4", "#B1E5CF"];
 
 function make_date_chart() {
   var config = {
