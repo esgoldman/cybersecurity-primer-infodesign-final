@@ -78,6 +78,7 @@ a:hover{
 .list-group-item{
   background-color: #003459;
   color: #8d99ae;
+  border: none;
 }
 .card{
   padding: 5%;
