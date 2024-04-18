@@ -12,7 +12,9 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5{
+  font-family: "Source Code Pro";
+}
 .nav-link,
 .navbar-brand,
 .nav-button {
@@ -66,6 +68,7 @@ a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .img-data{
   height: 80vh;
@@ -83,9 +86,13 @@ a:hover{
 }
 .card{
   padding: 5%;
+  min-height: 10vh;
   background-color: #8d99ae;
   color: #003459;
   cursor: pointer;
+}
+.identify-game{
+  text-align: center;
 }
 .phish-btn, .phish-btn:hover{
   margin-left: 15%;
@@ -96,6 +103,11 @@ a:hover{
 .points{
   background-color: #89CE94;
   color: #003459;
+}
+.form-control, .form-control:focus{
+  background-color: #becee9;
+  color: #003459;
+  box-shadow: none;
 }
 .popup{
   position: relative;
@@ -127,4 +139,24 @@ a:hover{
   border-width: 5px;
   border-style: solid;
   border-color: #89CE94 transparent transparent transparent;
+}
+.progress{
+  background-color: #8d99ae;
+}
+.password-info{
+  margin-bottom: 5%;
+}
+.password-how-to{
+  margin-top: 5%;
+}
+.pass-btn{
+  background-color: #89CE94;
+  color: #003459;
+}
+.form-range::-webkit-slider-runnable-track, .form-range::-moz-range-track{
+  background-color: #FFCB77;
+}
+.form-range::-webkit-slider-thumb, .form-range::-moz-range-thumb, .form-range:focus::-moz-range-thumb{
+  background-color: #003459;
+  box-shadow: none;
 }
